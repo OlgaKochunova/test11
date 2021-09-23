@@ -1,0 +1,27 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Страничка авторизации</title>
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+</head>
+<body>
+	<div class="wrap">
+		<div class="auth">
+			<h1 class="auth__title">Страничка авторизации</h1>
+			<form id="auth-form" class="auth__form">
+				<label for="auth-form-email" class="auth__form-label">Введите Вашу электронную почту</label>
+				<input id="auth-form-email" class="auth__form-input" type="email" placeholder="Пример: pochta@mail.ru">
+				<label for="auth-form-password" class="auth__form-label">Введите пароль</label>
+				<input id="auth-form-password" class="auth__form-input" type="password" placeholder="Пароль">
+				<button class="auth__form-btn">Войти</button>
+				<div id="auth-form-errors" class="auth__form-errors"></div>
+			</form>
+		</div>
+	</div>
+	<div id="clock" class="clock"></div>
+</body>
+<script src="js/script.js"></script>
+</html>
